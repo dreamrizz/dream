@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+body {
+}
+/* copyrigth */
+
+.copyright {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(53, 53, 53);
+  height: 50px;
+  color: rgba(255, 255, 255, 0.671);
+}
+
+/* copyright */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 120px;
+  background: #11141a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo {
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+nav a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 0.3s;
+}
+nav a:hover,
+nav a.active {
+  color: #0ef;
+  text-shadow: rgba(0,0,239,1) 0px 0px 50px;
+}
+
+.section-Bio {
+  display: flex;
+  background-color: #32394600;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.section-Project {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+.section-Contact {
+  display: flex;
+  background-color: #164b7c00;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.section-Download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bio {
+}
+
+.left {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  background-color: rgb(121, 122, 122);
+}
+
+/* section:nth-child(odd) {
+    background: #323946;
+} */
+
+.pp {
+  filter: grayscale(100);
+  transition: 0.3s;
+  transform: rotate3d(180deg);
+  border-radius: 100%;
+  height: 370px;
+  display: flex;
+  padding: 10px;
+}
+
+.pp:hover {
+  filter: grayscale(0);
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1)
+}
+.kota {
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  width: 50%;
+}
+
+.tentang {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  display: flex;
+}
+.yo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+/* CARD OR PROJECT */
+.card-container {
+  padding: 20px;
+  align-items: flex;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 540px;
+  width: 500px;
+  background-color: #000000;
+  overflow: hidden;
+  transition: 0.4s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 2);
+  margin: 20px;
+}
+.card:hover {
+  height: 560px;
+  width: 510px;
+  box-shadow: 0 0 30px 0 rgb(255, 255, 255);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100);
+}
+
+.card:hover img {
+  cursor: pointer;
+  transition: 1s;
+  transform: scale(1.05);
+  filter: grayscale(0);
+  filter: saturate(1.2);
+}
+
+.card-content {
+  padding: 16px;
+}
+
+a {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.card-content p {
+  color: white;
+  font-size: 16px;
+  line-height: 1.3;
+}
+i1{
+  color: #27b45d;
+  font-size: 100px;
+}
+i2{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  font-size: 100px;
+  border-radius: 20px;
+}
+i3{
+  color: rgb(45, 134, 206);
+  font-size: 100px;
+  border-radius: 20px;
+}
+i4{
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  border-radius: 20px;
+}
+/* CARD OR PROJECT END */
+
+/* WALLPAPER */
+
+/* WALLPAPER END */
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* PAGE DOWNLOAD */
+.tag {
+  color: white;
+  text-align: center;
+}
+.unduh {
+  transition: 1s;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 70%;
+  background-color: rgba(54, 54, 54, 0.753);
+}
+
+.unduh:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 0 0 20px 0 rgb(255, 255, 255);
+  overflow: hidden;
+  margin: 20px;
+}
+
+.download:hover{
+  color: #0ef;
+  text-shadow: rgba(0,0,239,1) 0px 0px 20px;
+  transition: 1s;
+}
+
+.tanda {
+  color: white;
+  font-size: 20px;
+  font-weight: 50px;
+}
+/* PAGE DOWNLOAD END */
+
+/* CARD PROFILE */
+.card-profile{
+  gap: 40px;
+  align-items: flex;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.foto-contact {
+  border-radius: 50%;
+  height: 200px;
+}
+.nama-medsos {
+  color: #ffffff9a;
+  font-weight: bold;
+}
+.medsos-facebook {
+  color: white;
+  font-weight: 70px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #3A5795;
+  width: 400px;
+  height: 500px;
+  transition: 0.50s;
+}
+
+.medsos-instagram {
+  color: white;
+  font-weight: 70px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  width: 400px;
+  height: 500px;
+  transition: 0.50s;
+}
+
+.medsos-whatsapp {
+  color: white;
+  font-weight: 70px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(45deg, #EDF8F5,  #00E676, #00E676,  #ffffff);
+  width: 400px;
+  height: 500px;
+  transition: 0.50s;
+}
+
+.medsos-github {
+  color: white;
+  font-weight: 70px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background:rgb(51, 51, 51);
+  width: 400px;
+  height: 500px;
+  transition: 0.50s;
+}
+
+.btn {
+  transition: 1s;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  box-shadow: 0 0 30px 0 rgb(255, 255, 255);
+  transition: 1s;
+  cursor: pointer;
+  color: black
+}
+
+/* hover animation for card profile */
+.medsos-facebook:hover {
+  box-shadow: 0 0 40px 0 #3A5795;
+  transition: 0.50s;
+
+}
+
+.medsos-instagram:hover {
+  box-shadow: 0 0 40px 0 #e1306bbd;
+  transition: 0.50s;
+
+}
+
+.medsos-whatsapp:hover {
+  box-shadow: 0 0 40px 0 #00E676;
+  transition: 0.50s;
+
+}
+
+.medsos-github:hover {
+  box-shadow: 0 0 40px 0 #858585;
+  transition: 0.50s;
+
+}
+/* CARD PROFILE */
